@@ -22,12 +22,10 @@ function add() {
 function finalizar() {
     let resultado = document.querySelector('article#resultado')
     
-
     if(lista.length == 0) {
         alert('Adicione valores antes de finalizar.')
     }
     else {
-
         let maior = lista[lista.length - 1]
         let menor = Math.min.apply(null, lista)
         let soma = 0
