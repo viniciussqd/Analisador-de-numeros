@@ -16,18 +16,21 @@ function add() {
     }
     numero.value = ''
     numero.focus()
+    lista.sort()
 }
+
 
 function finalizar() {
     let resultado = document.querySelector('article#resultado')
-    lista.sort()
+    
 
     if(lista.length == 0) {
         alert('Adicione valores antes de finalizar.')
     }
     else {
+
         let maior = lista[lista.length - 1]
-        let menor = lista[0]
+        let menor = Math.min.apply(null, lista)
         let soma = 0
 
         for(let i = 0; i < lista.length; i++) {
