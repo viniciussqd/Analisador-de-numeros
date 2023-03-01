@@ -40,7 +40,7 @@ function finalizar() {
         resultado.innerHTML += `<p>Ao todo temos ${lista.length} elementos.</p>`
         resultado.innerHTML += `<p>O maior valor foi ${maior}.</p>`
         resultado.innerHTML += `<p>O menor valor foi ${menor}.</p>`
-        resultado.innerHTML += `<p>A soma de todos os número adicionados é ${soma}.</p>`
-        resultado.innerHTML += `<p>A média de todos os número adicionados é ${media.toFixed(1)}.</p>`
+        resultado.innerHTML += `<p>A soma de todos os números adicionados é ${soma}.</p>`
+        resultado.innerHTML += `<p>A média de todos os números adicionados é ${media.toFixed(1)}.</p>`
     }
 }
