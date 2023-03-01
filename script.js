@@ -19,7 +19,6 @@ function add() {
     lista.sort()
 }
 
-
 function finalizar() {
     let resultado = document.querySelector('article#resultado')
     
