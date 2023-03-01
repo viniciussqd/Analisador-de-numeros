@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(77, 96, 209);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 25px 0px;
+}
+
+main {
+    width: 435px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+}
+
+label {
+    padding-left: 10px;
+}
+
+input[type=number] {
+    margin: 10px 0px 7px 0px;
+}
+
+select {
+    width: 150px;
+    margin: 5px 0px 5px 10px;
+}
+
+input[type=button] {
+    margin-left: 10px;
+}
+
+#resultado {
+    padding: 10px 0px 10px 10px;
+}
+
+#resultado p {
+    padding-bottom: 15px;
+}
